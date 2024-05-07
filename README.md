@@ -1,8 +1,8 @@
-Vendor Management System with Performance Metrics
+# Vendor Management System with Performance Metrics
 
 This Vendor Management System is built using Django and Django REST Framework. It allows for the management of vendor profiles, tracking of purchase orders, and calculation of vendor performance metrics.
 
-Setup Instructions
+# Setup Instructions
 1. Clone the repository to your local machine:
    git clone <repository-url>
 2. Navigate to the project directory:
@@ -10,10 +10,10 @@ Setup Instructions
 3. Create a virtual environment (optional but recommended):
    python -m venv venv
 4. Activate the virtual environment:
-   # On Windows
+   #On Windows
    venv\Scripts\activate
 
-   # On macOS/Linux
+   #On macOS/Linux
    source venv/bin/activate
 5. Install the required dependencies:
     pip install -r requirements.txt
@@ -24,7 +24,7 @@ Setup Instructions
    
 The API should now be accessible at http://127.0.0.1:8000/.
 
-Using the API Endpoints
+# Using the API Endpoints
 Vendor Endpoints
 1. GET /api/vendors/: List all vendors.
 2. POST /api/vendors/: Create a new vendor.
@@ -44,7 +44,7 @@ Vendor Performance Endpoint
 1. GET /api/vendors/{vendor_id}/performance/: Retrieve performance metrics for a specific vendor.
 
 
-Running the Test Suite
+# Running the Test Suite
 To run the test suite for the Vendor Management System, follow these steps:
 
 1. Ensure that you have activated your virtual environment.
